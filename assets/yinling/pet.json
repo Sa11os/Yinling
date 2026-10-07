@@ -1,0 +1,207 @@
+{
+  "schema": "yinling-pet/1",
+  "name": "yinling",
+  "display_name": "银铃 / Yinling",
+  "version": "1.0.0",
+  "release_date": "2026-10-07",
+  "description": "A silver-haired chibi companion with capsule eyes, a brown jacket, a purple ribbon and an orange-white sleeve band.",
+  "asset_license": "Yinling Personal Noncommercial Asset License 1.0",
+  "atlas": {
+    "file": "spritesheet.png",
+    "sprite_version": 2,
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "mode": "RGBA",
+    "used_frames": 73,
+    "sha256": "df394d92c44711b2cb3994fb225e67a16ac548cf197a5887fc160bfe216fc251"
+  },
+  "angle_convention": "Clockwise in screen coordinates: 0=up, 90=right, 180=down, 270=left.",
+  "timing_note": "durations_ms describes preview timing; the host chooses playback timing.",
+  "animations": [
+    {
+      "name": "idle",
+      "row": 0,
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "source_directory": "source/frames/idle"
+    },
+    {
+      "name": "running-right",
+      "row": 1,
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "source_directory": "source/frames/running-right"
+    },
+    {
+      "name": "running-left",
+      "row": 2,
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "source_directory": "source/frames/running-left"
+    },
+    {
+      "name": "waving",
+      "row": 3,
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_directory": "source/frames/waving"
+    },
+    {
+      "name": "jumping",
+      "row": 4,
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_directory": "source/frames/jumping"
+    },
+    {
+      "name": "failed",
+      "row": 5,
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "source_directory": "source/frames/failed"
+    },
+    {
+      "name": "waiting",
+      "row": 6,
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "source_directory": "source/frames/waiting"
+    },
+    {
+      "name": "running",
+      "row": 7,
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "source_directory": "source/frames/running"
+    },
+    {
+      "name": "review",
+      "row": 8,
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "source_directory": "source/frames/review"
+    },
+    {
+      "name": "look-row-9",
+      "row": 9,
+      "frames": 8,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "source_directory": "source/frames/look-row-9",
+      "directions_degrees": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90,
+        112.5,
+        135,
+        157.5
+      ]
+    },
+    {
+      "name": "look-row-10",
+      "row": 10,
+      "frames": 8,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "source_directory": "source/frames/look-row-10",
+      "directions_degrees": [
+        180,
+        202.5,
+        225,
+        247.5,
+        270,
+        292.5,
+        315,
+        337.5
+      ]
+    }
+  ]
+}

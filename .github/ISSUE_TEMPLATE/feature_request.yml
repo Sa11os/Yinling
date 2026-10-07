@@ -1,0 +1,10 @@
+name: 改进建议 / Feature request
+description: 提出动作、预览、文档或工具改进
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望改善什么 / Suggested improvement
+      description: 描述场景与期望效果。
+    validations:
+      required: true

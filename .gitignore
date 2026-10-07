@@ -1,0 +1,16 @@
+# Private creation work and local dependencies
+/Pets/
+/.runtime/
+/.codex/
+/.agents/
+/dist/
+/.venv/
+/.verify/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log

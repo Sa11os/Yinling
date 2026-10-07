@@ -1,0 +1,23 @@
+name: 使用问题 / Bug report
+description: 反馈导入、动画或维护工具问题
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发生了什么 / What happened?
+      description: 写下使用步骤、预期与实际表现。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境 / Environment
+      placeholder: Codex / ChatGPT、操作系统、素材版本
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或日志 / Evidence
+      description: 分享前请移除个人信息与账户文件标识。

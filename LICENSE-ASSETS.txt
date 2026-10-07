@@ -1,0 +1,24 @@
+Yinling Personal Noncommercial Asset License 1.0
+银铃素材个人非商业使用许可 1.0
+
+适用范围 / Scope
+本许可适用于 assets/、source/、docs/previews/ 中的角色图像、精灵图、动画帧和视觉预览，以及下载包中的对应副本。工具代码、测试与文字说明采用 LICENSE 中的 MIT 许可。
+This license applies to character artwork, sprite sheets, frames and visual previews in assets/, source/ and docs/previews/, and their release copies. Tools, tests and prose documentation use MIT.
+
+许可事项 / Permissions
+允许个人为非商业用途免费下载、展示和使用素材。
+允许个人为自己的非商业使用调整大小、裁切、改色或修改素材。
+允许免费分享原始素材，分享时保留本许可与 CREDITS.md 并标明项目来源。
+You may download, display and use the assets free of charge for personal, noncommercial purposes, and adapt them for your own personal, noncommercial use. You may share original assets free of charge while preserving this license, CREDITS.md and project attribution.
+
+另行授权 / Additional permission
+商业使用、销售、盈利性分发、商业产品集成、广告用途、付费代安装，以及修改版角色素材的公开分发，须事先取得相应权利人的书面许可。可通过 GitHub 联系仓库维护者。
+Commercial use, sale, monetized distribution, commercial product or advertising integration, paid installation services and public distribution of modified character assets require prior written permission from the applicable rights holder. Contact the repository maintainer through GitHub.
+
+权利与来源 / Rights and provenance
+本许可覆盖发布者拥有或有权授予的权利。第三方参考图、角色设定、名称与商标的权利由各自权利人保有。来源记录见 CREDITS.md，原创归属与官方背书须依实际来源标注。
+This permission covers rights the publisher owns or is authorized to grant. Third-party reference art, character designs, names and trademarks remain with their respective holders. See CREDITS.md for provenance. Authorship and endorsement must reflect the actual sources.
+
+品质与兼容性 / Warranty
+素材按现状提供，实际效果取决于宿主应用、显示比例和动画实现。使用范围以本许可的约定为准。
+Assets are provided as-is. Compatibility and appearance depend on the host application, display scale and animation implementation. This permission ends for use outside its stated scope.

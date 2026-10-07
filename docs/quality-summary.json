@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "review_date": "2026-10-07",
+  "atlas_sha256": "df394d92c44711b2cb3994fb225e67a16ac548cf197a5887fc160bfe216fc251",
+  "pets_preflight": "accepted",
+  "production_account_activation": "completed",
+  "layout": {
+    "used_frames": 73,
+    "empty_cells": 15,
+    "rgba": true
+  },
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      194,
+      171,
+      195,
+      202
+    ],
+    "airborne_lift_pixels": 31,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      95.5,
+      92.0,
+      91.5,
+      92.5,
+      92.5,
+      94.5,
+      97.5,
+      98.5,
+      95.5,
+      93.5,
+      90.5,
+      90.5,
+      91.5,
+      94.0,
+      97.0,
+      98.0
+    ],
+    "look_widths": [
+      103,
+      98,
+      99,
+      97,
+      95,
+      97,
+      101,
+      101,
+      99,
+      95,
+      99,
+      97,
+      95,
+      96,
+      98,
+      98
+    ],
+    "maximum_center_drift_pixels": 5.0,
+    "maximum_width_ratio": 1.0842105263157895
+  },
+  "continuity_metric_notes": [
+    "157.5->180 diff is a local outlier (1796 pixels vs neighbor average 1170)",
+    "270->292.5 diff is a local outlier (1562 pixels vs neighbor average 934)",
+    "337.5->000 diff is a local outlier (2122 pixels vs neighbor average 1211)"
+  ],
+  "blind_direction_review": {
+    "reviewers": 3,
+    "axis_classifications": 28,
+    "unanimously_correct": 28
+  },
+  "final_visual_review": "pass_with_minor_notes",
+  "visual_notes": [
+    "Springy run cadence with recurring extended strides.",
+    "Failed and review states rely on subtle head and eye changes.",
+    "The five-pose jump has a visibly stepped cadence."
+  ],
+  "review_scope": "Structural metrics and independent AI visual review; playback depends on the host."
+}

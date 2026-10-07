@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for ChatGPT pet 银铃.
+
+Pet identity: Preserve silver-white long hair with icy blue shadows, parted wavy fringe, long side lock draped over screen-right shoulder; tiny dot mouth, pale warm skin, brown blazer, white sailor collar and dark purple ribbon bow; orange band with white stripe on screen-right upper sleeve. Tiny dark brown shoes, charcoal shorts, compact complete body around 2 heads tall. Consistent black pill eyes. All limbs physically attached. Character fills compact portrait silhouette..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `flat-vector`: Flat vector-style mascot with simple geometric forms, crisp color areas, clean outline, and minimal shading. User style notes: Minimal rounded gorkbot-like chibi mascot based on supplied artwork. Smooth clean pastel filled shapes, soft understated cel shading, pill-shaped solid black eyes, blush, oversized head and tiny body, charming miniature paper-cut toy quality..
+
+
+Place a single centered pose on a perfectly flat pure green #00FF00 chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FF00 and close colors out of the pet, props, highlights, and effects.

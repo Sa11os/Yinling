@@ -1,0 +1,30 @@
+name: Draft release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/validate.py --verify-hash
+      - run: python -m unittest discover -s tests -v
+      - name: Build versioned files
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: python scripts/build_release.py --tag "$RELEASE_TAG"
+      - name: Create draft with downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" dist/*.zip dist/*.png dist/*.json dist/SHA256SUMS.txt --verify-tag --draft --title "Yinling $RELEASE_TAG" --notes-file docs/RELEASE_NOTES.md
